@@ -1,0 +1,89 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar a, .navbar button {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar a:hover, .navbar button:hover {
+  background-color: #555;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.dashboard {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.dark {
+  background-color: #333;
+  color: white;
+}
+
+.dark .navbar {
+  background-color: #222;
+}
+
+.dark table, .dark th, .dark td {
+  border-color: #555;
+}
+
+.dark th {
+  background-color: #444;
+}
